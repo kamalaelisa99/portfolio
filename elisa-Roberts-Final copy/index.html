@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Special+Elite&display=swap" rel="stylesheet">
+	
+</head>
+	
+	
+
+<body>
+	<div id="container">
+	
+		<header>
+		<div id="headerTextP">
+			<div id="headerTextC">
+				<h1> Elisa Roberts</h1>
+				<div id="headerFlexP">
+					<p><strong>Concept Art | Illustration | Animation</strong></p>
+					</div>
+			</div>
+		</div>
+					
+					 <nav class="navbar">
+						<div class="menu-toggle" id="mobile-menu">&#9776;</div>
+						<ul class="nav-list">
+						  <li><a href="index.html">Home/About</a></li>
+						  <li><a href="conceptart.html">Concept Art</a></li>
+						  <li><a href="animation.html">Animation</a></li>
+						  <li><a href="resume.html">Resume</a></li>
+						</ul>
+					  </nav>
+
+					  
+										
+				
+	</header>
+		
+		
+		
+		
+		
+	
+	<main>
+			
+		<section id="about">
+			<div id="aboutFlexP">			
+				<div id="aboutFlexC">
+					<h1>About</h1>
+					<p>Elisa Roberts is a Virgo, a Swiftie, and has still not apologized to her parents for deciding to pursue a career in animation.</p>
+
+					<p>Elisa specializes in bold, whimsical concept art, and loves to find out-of-the-box solutions. She has experience in character design, prop design, directing illustration, 2D and 3D animation, 3D modeling, graphic design, web design, and marketing. She has worked on projects such as animated short films including Biting Dust and After the Great Collapse, and video games including Haunting Notes and Coil Cat. Her work has been featured in Meatspace Magazine and local galleries. She has attended events such as Lightbox Expo, industry speaker events including Ashley Long(Bento Box Entertainment), Henri Hovhanesyan(Dreamworks), and Sony Pictures Animation, and been a vendor at SHMCon and CorgiCon. </p>
+
+					<p>Elisa currently resides in San Jose, where she is pursuing her BFA in Animation/Illustration at San Jose State University and her AS in Interactive Web Design at Sierra College.</p>
+				</div>
+				<img src="elisa-Roberts-Final-root/headshot.jpg" alt="Placeholder Image">
+			</div>
+				
+		</section>
+	</main>
+		
+		
+		
+		
+		
+	
+	<footer>
+		<section id ="footer">			 
+             <ul id="SocialLinks">
+				 <li><a href="https://www.instagram.com/elisarobertsart/" class="fa fa-instagram"></a></li>				 
+				 <li><a href="https://www.linkedin.com/in/elisa-kamala-roberts-345431239/" class="fa fa-linkedin"></a></li>
+				 <li><a href="mailto:elisarobertsart@gmail.com" class="fa fa-envelope"></a></li>
+			</ul>
+
+		</section>
+	</footer>
+	
+	
+	</div>
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+		  const mobileMenu = document.getElementById('mobile-menu');
+		  const navList = document.querySelector('.nav-list');
+
+		  mobileMenu.addEventListener('click', function () {
+			navList.classList.toggle('show');
+		  });
+
+		  // Close the menu when a menu item is clicked
+		  navList.addEventListener('click', function () {
+			navList.classList.remove('show');
+		  });
+		});
+	  </script>
+
+</body>
+</html>
